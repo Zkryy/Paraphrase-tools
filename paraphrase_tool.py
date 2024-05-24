@@ -4,8 +4,8 @@ from tqdm import tqdm
 import time
 
 # Load models for English and Indonesian
-model_name_en = "t5-base"  # You can use any suitable English paraphrase model
-model_name_id = "cahya/t5-base-indonesian-summarization-cased"  # Example Indonesian model
+model_name_en = "tuner007/pegasus_paraphrase"  # You can use any suitable English paraphrase model
+model_name_id = "HMehrab/bangla_idiom_paraphrase_v1"  # Example Indonesian model
 
 tokenizer_en = AutoTokenizer.from_pretrained(model_name_en)
 model_en = AutoModelForSeq2SeqLM.from_pretrained(model_name_en)

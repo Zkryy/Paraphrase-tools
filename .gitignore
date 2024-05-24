@@ -16,10 +16,10 @@ eggs/
 .eggs/
 lib/
 lib64/
-Library/
+library/
 parts/
 sdist/
-Scripts
+scripts/
 var/
 wheels/
 share/python-wheels/
